@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+crewai_venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Secrets
+*.key
+*.pem
+secrets/
+credentials/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Python tools
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Large/generated ML files
+*.bin
+*.pt
+*.pth
+*.onnx
+*.safetensors
+
+# Generated RAG files
+rag/*.index
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Temporary files
+*.tmp
+*.temp
+
+# Generated evaluation outputs
+evaluation/*.json
